@@ -1,0 +1,79 @@
+.shop-title-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  margin-top: 22rpx;
+  margin-left: 30rpx;
+}
+.shop-title-image {
+  width: 40rpx;
+  height: 36rpx;
+}
+.shop-title-name {
+  margin-left: 20rpx;
+  font-size: 28rpx;
+  font-weight: 500;
+  line-height: 40rpx;
+  color: rgba(51, 51, 51, 1);
+  opacity: 1;
+}
+.shop-middle-box {
+  width: 100%;
+  margin-top: 60rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.shop-middle-image {
+  width: 572rpx;
+  height: 397rpx;
+}
+.shop-emw-input {
+  width: 640rpx;
+  height: 88rpx;
+  margin-top: 54rpx;
+  position: relative;
+}
+.shop-item-input {
+  width: 500rpx;
+  height: 88rpx;
+  background: rgba(245, 245, 245, 1);
+  border-radius: 44rpx;
+  line-height: normal;
+  padding-left: 28rpx;
+  padding-right: 112rpx;
+}
+.shop-item-input::-webkit-input-placeholder {
+  font-size: 28rpx;
+  color: rgba(179, 179, 179, 1);
+}
+.shop-item-icon {
+  width: 44rpx;
+  height: 44rpx;
+  position: absolute;
+  right: 38rpx;
+  top: 22rpx;
+  z-index: 9999;
+}
+
+.destroy-btn {
+  width: 640rpx;
+  height: 88rpx;
+  line-height: 88rpx;
+  text-align: center;
+  border-radius: 50rpx;
+  margin: 50rpx 0 auto;
+  font-size: 28rpx;
+  color: #fff;
+  background: linear-gradient(to right, #7ee1ff, #3492ff);
+}
+
+.destroy-record {
+  width: 640rpx;
+  margin: 0 auto;
+  margin-top: 65rpx;
+  font-size: 28rpx;
+  color: #333333;
+  text-align: right;
+}

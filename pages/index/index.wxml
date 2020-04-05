@@ -1,0 +1,19 @@
+<!-- index.wxml -->
+<view class="container">
+    <View class="shop-title-box">
+        <image class="shop-title-image" src="/assets/images/icon-index-title.png" />
+        <View class="shop-title-name">门店:  {{ shopInfo.shopName }}</View>
+    </View>
+    <View class="shop-middle-box">
+        <image class="shop-middle-image" src="/assets/images/icon-index-bg.png" />
+
+        <view class="shop-emw-input">
+            <input class="shop-item-input" placeholder="请输入核销码" bindinput="handleDestroyCodeChange" />
+            <image class="shop-item-icon" bindtap="hanldeScancode" src="/assets/images/icon-index-ewm.png" />
+        </view>
+
+        <view class="destroy-btn" bindtap="handleDestory">立即核销</view>
+
+        <View class="destroy-record" bindtap="handleDestoryRecord">核销记录</View>
+    </View>
+</view>

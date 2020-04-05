@@ -1,0 +1,25 @@
+<!-- index.wxml -->
+<view class="container">
+    <View class="destroy-Box">
+        <View class="destroy-title">
+            <image class="destroy-title-icon" src="/assets/images/icon-destroy-success.png"></image>
+            <View>核销成功</View>
+        </View>
+        <View class="destroy-goods-list">
+            <View class="destroy-goods-container"  wx:for-items="{{destoryCodeList}}" wx:key="index" wx:for-item="item">
+                <image class="destroy-goods-image" src="{{item.imgUrl}}"></image>
+                <View class="destroy-goods-info-box">
+                    <view class="destroy-goods-info-title">{{item.goodsName}}</view>
+                    <view class="destroy-goods-info-num">X{{item.num}}</view>
+                    <view class="destroy-goods-info-code">
+                        <view class="destroy-goods-info-accountCode">订单号：{{item.orderNo}}</view>
+                        <view class="destroy-goods-info-destroyCode">核销码：{{item.deliveryCode}}</view>
+                    </view>
+                </View>
+            </View>
+        </View>
+        <View class="destroy-btn-box">
+            <view class="destroy-btn-submit" bindtap="handleDestoryCancel">返回首页</view>
+        </View>
+    </View>
+</view>

@@ -1,0 +1,22 @@
+{
+  "pages": ["pages/index/index", "pages/login/login"],
+  "subpackages": [
+    {
+      "root": "packages/destroy",
+      "pages": [
+        "goodsAffirm/index",
+        "destroySuccess/index",
+        "destroyRecord/index"
+      ]
+    }
+  ],
+
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "摩都商家移动管理系统",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

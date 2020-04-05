@@ -1,0 +1,112 @@
+.container{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.destroy-Box{
+  width: 690rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 130rpx;
+}
+.destroy-title{
+  width: 690rpx;
+  height: 258rpx;
+  font-size:36rpx;
+  font-weight:600;
+  color:rgba(51,51,51,1);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.destroy-title-icon{
+  width: 160rpx;
+  height: 160rpx;
+}
+.destroy-goods-list{
+  display: flex;
+  flex-direction: column;
+}
+.destroy-goods-container{
+  width: 630rpx;
+  padding: 40rpx 30rpx;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: start;
+  margin-top: 48rpx;
+  margin-bottom: 20rpx;
+  display: flex;
+}
+.destroy-goods-image{
+  width: 140rpx;
+  height: 140rpx;
+  background:rgba(203,234,255,1);
+  opacity:1;
+  border-radius:10rpx;
+}
+.destroy-goods-info-box{
+  width: 432rpx;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.destroy-goods-info-title{
+  width:432rpx;
+  font-size:28rpx;
+  font-weight:400;
+  display: flex;
+  flex-wrap: wrap;
+  overflow:hidden;
+  text-overflow: ellipsis;
+  display:-webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.destroy-goods-info-num{
+  width:432rpx;
+  height: 60rpx;
+  font-size:28rpx;
+  font-weight:400;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.destroy-goods-info-code{
+  width:432rpx;
+  height: 82rpx;
+  font-size:26rpx;
+  font-weight:400;
+  color:rgba(125,125,125,1);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.destroy-goods-info-accountCode,.destroy-goods-info-destroyCode{
+  width:432rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.destroy-btn-box{
+  margin-top: 150rpx;
+  margin-bottom: 30rpx;
+  width:100%;
+  height:230rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.destroy-btn-submit{
+  width:566rpx;
+  height:88rpx;
+  color: #FFFFFF;
+  background:linear-gradient(90deg,rgba(247,211,142,1) 0%,rgba(254,163,17,1) 100%);
+  box-shadow:0rpx 10rpx 10rpx rgba(254,168,30,0.2);
+  border-radius:44rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

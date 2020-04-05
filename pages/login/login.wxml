@@ -1,0 +1,15 @@
+<view>
+  <image class="bg-wrap" mode="widthFix" src="/assets/images/icon-login-bg.png" />
+  <view class="login-title">摩都商家移动管理系统</view>
+  <view class="login-box">
+    <view class="login-item">
+      <image class="item-icon" src="/assets/images/icon-login-username.png" />
+      <input class="item-input" placeholder="请使用门店账号登录" data-field="username" bindinput="handleInputChange" />
+    </view>
+    <view class="login-item">
+      <image class="item-icon" src="/assets/images/icon-login-password.png" />
+      <input class="item-input" password placeholder="请输入密码" data-field="password" bindinput="handleInputChange" />
+    </view>
+  </view>
+  <view class="login-btn" bindtap="handleLogin">立即登录</view>
+</view>
