@@ -1,0 +1,19 @@
+{
+  "name": "{{projectName}}",
+  "version": "{{projectVersion}}",
+  "description": "{{projectDescription}}",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jawardyao/wxapp-template.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jawardyao/wxapp-template/issues"
+  },
+  "homepage": "https://github.com/jawardyao/wxapp-template#readme"
+}
